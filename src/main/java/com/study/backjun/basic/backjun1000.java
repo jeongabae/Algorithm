@@ -3,7 +3,7 @@ package com.study.backjun.basic;
 import java.util.Scanner;
 
 public class backjun1000 {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int a, b;
         a = sc.nextInt();
