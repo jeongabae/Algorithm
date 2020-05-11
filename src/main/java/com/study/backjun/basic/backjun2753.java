@@ -15,11 +15,10 @@ public class backjun2753 {
         int number = scanner.nextInt();
         if (number % 4 == 0 && number % 100 != 0) {
             System.out.println("1");
-        }
-        else if (number%400==0) {
+        } else if (number % 400 == 0) {
             System.out.println("1");
-        }
-        else {
+        } else {
             System.out.println("0");
         }
+    }
 }
