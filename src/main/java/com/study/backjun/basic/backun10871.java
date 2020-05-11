@@ -6,7 +6,7 @@ package com.study.backjun.basic;
 
 import java.util.Scanner;
 
-public class backun10871 {
+public class backun10871{
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("N를 입력하세요.> ");
