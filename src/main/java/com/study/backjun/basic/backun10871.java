@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class backun10871 {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("N를 입력하세요.> ");
+        System.out.print("N를 입력하세요.> ");
         int N = scanner.nextInt();
 
         Scanner scanner2 = new Scanner(System.in);
-        System.out.printf("X를 입력하세요.> ");
+        System.out.print("X를 입력하세요.> ");
         int X = scanner.nextInt();
 
         Scanner scanner3 = new Scanner(System.in);
