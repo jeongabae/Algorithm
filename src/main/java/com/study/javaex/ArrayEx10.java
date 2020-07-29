@@ -14,9 +14,17 @@ public class ArrayEx10 {
 
             for (int j=0; j < numArr.length-1-i; j++) {
                 if (numArr[j] > numArr[j + 1]) {
-
+                    int temp = numArr[j];
+                    numArr[j] = numArr[j+1];
+                    numArr[j+1] = temp;
+                    changed = true;
                 }
             }
+            if(!changed) break;
+
+            for(int k=0; k<numArr.length;k++)
+                System.out.println(numArr[k]);
+            System.out.println();
         }
     }
 }
