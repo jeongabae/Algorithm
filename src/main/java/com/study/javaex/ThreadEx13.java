@@ -30,7 +30,6 @@ class ThreadEx13_1 extends Thread{
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            }
-
         }
         System.out.println("카운트가 종료되었습니다.");
     }
