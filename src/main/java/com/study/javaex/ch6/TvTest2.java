@@ -1,6 +1,6 @@
 package com.study.javaex.ch6;
 
-class Tv1 {
+class Tv2 {
     String color;
     boolean power;
     int channel;
@@ -17,8 +17,8 @@ class Tv1 {
 }
  class TvTest2 {
     public static void main(String[]args){
-        Tv1 t1 = new Tv1();
-        Tv1 t2 = new Tv1();
+        Tv2 t1 = new Tv2();
+        Tv2 t2 = new Tv2();
         System.out.println("현재 체널은 "+t1.channel+" 입니다.");
         System.out.println("현재 체널은 "+t2.channel+" 입니다.");
 
