@@ -13,7 +13,7 @@ public class ReferenceReturnEx {
 
 
     }
-    static Data copy(Data2 d){
+    static Data2 copy(Data2 d){
         Data2 tmp = new Data2;
         tmp.x = d.x;
         return tmp;
