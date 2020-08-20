@@ -2,7 +2,7 @@
 최대값과 최소갑 : 배열 요소 중,,,최대최소찾기
  */
 
-package com.study.javaex;
+package com.study.javaex.ch5;
 
 public class ArrayEx6 {
     public static void main(String[]args){

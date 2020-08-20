@@ -1,4 +1,4 @@
-package com.study.javaex;
+package com.study.javaex.ch5;
 
 public class ArrayEx15 {
     public static void main(String[]args){

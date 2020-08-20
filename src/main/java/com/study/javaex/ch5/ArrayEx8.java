@@ -1,6 +1,6 @@
 /*로또번호 생성예제
  */
-package com.study.javaex;
+package com.study.javaex.ch5;
 
 public class ArrayEx8 {
     public static void main(String[]args){

@@ -2,7 +2,7 @@
 총합과 평균 : 배열의 모든 요소를 더해서 총합과 평균을 구한다.
  */
 
-package com.study.javaex;
+package com.study.javaex.ch5;
 
 public class ArrayEx5 {
     public static void main(String[]args){

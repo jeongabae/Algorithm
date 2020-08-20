@@ -1,4 +1,4 @@
-package com.study.javaex;
+package com.study.javaex.ch5;
 
 import java.util.*; //Arrays.toString()을 사용하기 위해 추가
 public class ArrayEx9 {

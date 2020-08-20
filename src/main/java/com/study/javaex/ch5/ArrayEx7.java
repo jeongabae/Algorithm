@@ -1,7 +1,7 @@
 /*
 값 섞(카드섞기)
  */
-package com.study.javaex;
+package com.study.javaex.ch5;
 
 public class ArrayEx7 {
     public static void main(String[]args){
