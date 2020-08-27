@@ -1,14 +1,12 @@
 package com.study.javaex.ch15;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 import java.io.*;
 public class PipedReaderWriter {
     public static void main(String[]args){
         InputThread inThread = new InputThread("InputThread");
         OutputThread outThread = new OutputThread("OutputThread");
 
-        inThread.connnect(outThread.getOutput());
+        inThread.connect(outThread.getOutput());
 
         inThread.start();
         outThread.start();
@@ -31,17 +29,17 @@ class InputThread extends Thread {
                 sw.write(data);
             }
             System.out.println(getName() + "received: " + sw.toString());
-        } catch (IOException e) {
-        }
+        } catch (IOException e) {}
     }
+
     public PipedReader getInput(){
         return input;
     }
+
     public void connect(PipedWriter output){
         try{
             input.connect(output);
-        } catch (IOException e) {
-        }
+        } catch (IOException e) {}
     }
 }
 
@@ -58,19 +56,16 @@ class OutputThread extends Thread{
             System.out.println(getName()+"sent : "+msg);
             output.write(msg);
             output.close();
-        } catch (IOException e) {
-
-        }
+        } catch (IOException e) {}
     }
 
     public PipedWriter getOutput(){
         return output;
     }
 
-    public void connect(PipedWriter input){
+    public void connect(PipedReader input){
         try{
             output.connect(input);
-        } catch (IOException e) {
-        }
+        } catch (IOException e) {}
     }
 }
