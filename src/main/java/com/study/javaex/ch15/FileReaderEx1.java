@@ -3,7 +3,7 @@ import java.io.*;
 public class FileReaderEx1 {
     public static void main(String[]args){
         try{
-            String fileName = "test1.txt";
+            String fileName = "test.txt";
             FileInputStream fis = new FileInputStream(fileName);
             FileReader fr = new FileReader(fileName);
 
