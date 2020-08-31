@@ -18,6 +18,6 @@ public class StringReaderWriterEx {
 
         System.out.println("Input Data :"+inputData);
         System.out.println("Output Data :"+output.toString());
-   //     System.out.println("Output Data :"+output.getBuffer().toString());
+       // System.out.println("Output Data :"+output.getBuffer().toString());
     }
 }
