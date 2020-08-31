@@ -15,7 +15,7 @@ public class RandomAccessFileEx3 {
                 i += 16;
             }
         } catch (EOFException e) {
-           System.out.println("sum :"+sum);
+           System.out.println("sum:"+sum);
         } catch (IOException e) {
             e.printStackTrace();
         }
