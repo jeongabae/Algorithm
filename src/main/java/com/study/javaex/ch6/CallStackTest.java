@@ -1,4 +1,4 @@
-package com.study.javaex;
+package com.study.javaex.ch6;
 
 public class CallStackTest {
     public static void main(String[]args){
