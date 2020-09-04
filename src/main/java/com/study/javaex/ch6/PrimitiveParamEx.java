@@ -1,8 +1,6 @@
 package com.study.javaex.ch6;
 
-class Data{
-    int x;
-}
+class Data{ int x;}
 class PrimitiveParmaEx {
     public static void main(String[] args) {
         Data d = new Data();
@@ -14,7 +12,7 @@ class PrimitiveParmaEx {
         System.out.println("main(): x = " + d.x);
     }
 
-    static void change(int x) {
+    static void change(int x) { //기본형 매개변
     x = 1000;
     System.out.println("change() : x= "+ x);
     }
