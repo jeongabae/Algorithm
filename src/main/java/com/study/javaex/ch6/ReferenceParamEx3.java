@@ -5,9 +5,9 @@ class ReferenceParamEx3 {
         int[] arr = new int[]{3,2,1,6,5,4};
 
         printArr(arr); //배열의 모든 요소를 출력
-        sortArr(arr);
-        printArr(arr);
-        System.out.println("sum="+sumArr(arr));
+        sortArr(arr); //베열을 정렬
+        printArr(arr); //정렬후 결과를 출력
+        System.out.println("sum="+sumArr(arr)); //베열의 총합을 출력
     }
 
     static void printArr(int[] arr){
