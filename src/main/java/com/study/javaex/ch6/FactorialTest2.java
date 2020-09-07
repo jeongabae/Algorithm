@@ -2,7 +2,7 @@ package com.study.javaex.ch6;
 
 class FactorialTest2 {
     static long factorial(int n){
-        if(n<=0 || n>20) return -1;
+        if(n<=0 || n>20) return -1; //매개변수의 유효성검사
         if(n<=1) return 1;
         return n * factorial(n-1);
     }
