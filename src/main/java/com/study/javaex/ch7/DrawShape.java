@@ -2,7 +2,16 @@ package com.study.javaex.ch7;
 
 class DrawShape {
     public static void main(String[]args){
-        Point[] p =
+        Point[] p ={
+                new Point(100,100),
+                new Point(140,50),
+                new Point(200, 100)
+        };
+        Triangle t  = new Triangle(p);
+        Circle c = new Circle(new Point(150,150),50);
+
+        t.draw();
+        c.draw();
     }
 }
 
@@ -43,8 +52,20 @@ class Circle extends Shape{
         this.r = r;
     }
 
-    void draw(){
-        System.out.printf("[center=(%d,%d), r = %d, color = ")
+    void draw() {
+        System.out.printf("[center=(%d,%d), r = %d, color =%s]%n",center.x, center.y, r, color);
     }
 }
 
+class Triangle extends Shape{
+    Point[] p = new Point[3];
+
+
+    public Triangle(Point[] p) {
+        this.p = p;
+    }
+
+    void draw(){
+        System.out.printf("[p1=%s, p2=%s, p3=%s, color=%s]%n", p[0].getXY(),p[1].getXY(),p[2].getXY(),color);
+    }
+}
