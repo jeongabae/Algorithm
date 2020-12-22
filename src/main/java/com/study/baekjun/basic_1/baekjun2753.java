@@ -4,11 +4,11 @@
 //
 //예를 들어, 2012년은 4의 배수이면서 100의 배수가 아니라서 윤년이다. 1900년은 100의 배수이고 400의 배수는 아니기 때문에 윤년이 아니다.
 // 하지만, 2000년은 400의 배수이기 때문에 윤년이다.
-package com.study.backjun.basic;
+package com.study.baekjun.basic_1;
 
 import java.util.Scanner;
 
-public class backjun2753 {
+public class baekjun2753 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("숫자를 입력하세요.> ");

@@ -1,8 +1,8 @@
-package com.study.backjun.basic;
+package com.study.baekjun.basic_1;
 
 import java.util.Scanner;
 
-public class backjun1000 {
+public class baekjun1000 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int a, b;

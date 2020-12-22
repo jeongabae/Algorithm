@@ -1,9 +1,9 @@
-package com.study.backjun.basic;
+package com.study.baekjun.basic_1;
 
 import java.util.Scanner;
 
-public class backjun1110 {
-    public static void main(String []args){
+public class baekjun1008 {
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         double a, b;
         a = sc.nextInt();

@@ -1,6 +1,6 @@
-package com.study.backjun.basic;
+package com.study.baekjun.basic_1;
 
-public class backjun10171 {
+public class baekjun10171 {
     public static void main(String[] args) {
         System.out.println("\\    /\\");
         System.out.println(" )  ( ')");
