@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class baekjun2753 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("숫자를 입력하세요.> ");
+//        System.out.print("숫자를 입력하세요.> ");
         int number = scanner.nextInt();
         if (number % 4 == 0 && number % 100 != 0) {
             System.out.println("1");
